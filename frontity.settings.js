@@ -2,7 +2,7 @@ const settings = {
   "name": "my-first-app",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
+      "url": "https://financialplanning-loans-and-insurance.co.za/test100/",
       "title": "Test Frontity Blog",
       "description": "WordPress installation for Frontity development"
     }
@@ -18,12 +18,12 @@ const settings = {
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "Listings",
+              "/category/listings/"
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "Sample",
+              "/test100/premium-tv/"
             ],
             [
               "Japan",
@@ -31,12 +31,13 @@ const settings = {
             ],
             [
               "About Us",
-              "/about-us/"
+              "/test100/about-us/"
             ]
           ],
           "featured": {
-            "showOnList": false,
-            "showOnPost": false
+            "showOnList": true,
+            "showOnPost": true,
+            "showOnPage": true
           }
         }
       }
@@ -45,7 +46,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "url": "https://financialplanning-loans-and-insurance.co.za/test100/"
         }
       }
     },
