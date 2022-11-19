@@ -19,7 +19,7 @@ const settings = {
             ],
             [
               "Listings",
-              "/test100/listings/"
+              "/category/listings/"
             ],
             [
               "Sample",
