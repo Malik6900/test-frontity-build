@@ -50,10 +50,17 @@ const settings = {
           "postTypes": [
             {
               type: "listings",
-              endpoint: "/test100/listings/",
-              archive: "/test100/listings/"
+              endpoint: "listings",
+              archive: "/test100/listings"
             }
           ]
+          // taxonomies: [
+          //   {
+          //     taxonomy: "listings",
+          //     endpoint: "listings",
+          //     postTypeEndpoint: "/test100/listings"
+          //   }
+          // ]
         }
       }
     },

@@ -47,6 +47,7 @@ const Theme = ({ state }) => {
           <Post when={data.isPost} />
           <Page when={data.isPage} />
           <Page when={data.isListings} />
+          <Post when={data.isPostType} />
           <PageError when={data.isError} />
         </Switch>
       </Main>
