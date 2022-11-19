@@ -19,7 +19,7 @@ const settings = {
             ],
             [
               "Listings",
-              "/category/listings/"
+              "/test100/listings/"
             ],
             [
               "Sample",
@@ -46,7 +46,14 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://financialplanning-loans-and-insurance.co.za/test100/"
+          "url": "https://financialplanning-loans-and-insurance.co.za/test100/",
+          "postTypes": [
+            {
+              type: "listings",
+              endpoint: "/test100/listings/",
+              archive: "/test100/listings/"
+            }
+          ]
         }
       }
     },
