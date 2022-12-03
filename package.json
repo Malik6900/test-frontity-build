@@ -23,5 +23,8 @@
     "@frontity/tiny-router": "^1.4.4",
     "@frontity/html2react": "^1.7.0",
     "@frontity/mars-theme": "./packages/mars-theme"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
